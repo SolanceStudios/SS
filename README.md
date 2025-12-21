@@ -1,36 +1,42 @@
 # Solance Studios (SS)
 
-**Solance Studios (SS)** is a professional development studio and community focused on creating **high-quality Minecraft plugins**, offering both **premium (paid)** and **free** solutions for modern Minecraft servers.
+**Solance Studios (SS)** is a professional Minecraft plugin development studio and community, focused on delivering **high-quality, closed-source plugins** for modern Minecraft server versions.
 
-Our plugins are designed to meet the expectations of server owners who value performance, stability, and long-term support.
+We offer both **premium (paid)** and **free** plugins; however, **all projects developed by Solance Studios are proprietary and closed-source**.
 
 ## About Solance Studios
 
-Solance Studios operates as a plugin development community dedicated to delivering reliable and well-maintained Minecraft plugins. We provide solutions for a wide range of servers, from small communities to large networks.
+Solance Studios operates as a professional community of developers dedicated to creating reliable, optimized, and secure Minecraft plugins. Our solutions are designed for server owners who value performance, stability, and professional support.
 
-Our products are actively maintained and developed following modern Minecraft standards and APIs.
+All plugins are developed using modern standards and are actively maintained.
 
 ## Plugin Distribution
 
-Solance Studios plugins are distributed through platforms such as:
+Solance Studios plugins are distributed through official platforms, including:
 
-- SpigotMC  
-- BuiltByBit (MC-Market)  
-- GitHub (for free and open-source projects)
+- BuiltByBit (MC-Market)
 
-### Plugin Types
+## Plugin Types
 
 - **Premium Plugins**  
-  Paid plugins with advanced features, continuous updates, and dedicated support.
+  Paid plugins with advanced features, regular updates, and dedicated support.
 
 - **Free Plugins**  
-  Community-accessible plugins released for public use, following the same quality standards.
+  Free-to-use plugins provided as compiled binaries, without source code access.
+
+## Licensing & Usage
+
+- All Solance Studios plugins are **closed-source**.
+- Redistribution, modification, decompilation, or resale is strictly prohibited.
+- Free plugins are licensed for use only and do not grant source code access.
+
+Each plugin includes specific licensing terms provided with its release.
 
 ## Development Standards
 
 - Support for **up-to-date Minecraft versions**
-- Optimized performance and stability
-- Clean, maintainable, and scalable code
+- High performance and stability
+- Secure and maintainable architecture
 - Use of modern APIs (Spigot / Paper)
 
 ## Technologies
@@ -38,13 +44,6 @@ Solance Studios plugins are distributed through platforms such as:
 - Java  
 - Spigot / Paper API  
 
-## Support & Licensing
-
-Each plugin includes its own license and usage terms.  
-Premium plugins are protected by licensing systems and may not be redistributed or modified without permission.
-
-For support, documentation, and purchase links, refer to the respective plugin repository or marketplace page.
-
 ## Vision
 
-Our vision is to establish Solance Studios as a trusted and professional name in the Minecraft plugin market, combining free community projects with premium solutions for demanding server owners.
+Our vision is to establish Solance Studios as a trusted and professional name in the Minecraft plugin market, delivering secure, closed-source solutions for both free and premium users.
