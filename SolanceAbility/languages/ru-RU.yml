@@ -1,0 +1,13 @@
+# SolanceAbility Messages
+prefix: "&#00CBFFSolanceAbility: "
+
+no-permission: "&cУ вас нет разрешения использовать эту команду."
+only-players: "&cТолько игроки могут использовать эту команду."
+reload-success: "&aКонфигурация успешно перезагружена!"
+item-given: "&aВы получили пользовательский предмет: &f{item}"
+item-not-found: "&cПредмет не найден в конфигурации."
+usage-command: "&cИспользование: /sability get <item> или /sability reload"
+cooldown-active: "&cВы должны подождать &f{time}s &cперед повторным использованием этого предмета."
+cannot-use-here: "&cВы не можете использовать этот предмет в этом регионе!"
+cage-spawned: "&aКлетка успешно создана!"
+cage-expired: "&eВаша клетка исчезла."

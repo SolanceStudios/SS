@@ -1,0 +1,13 @@
+# SolanceAbility Messages
+prefix: "&#00CBFFSolanceAbility: "
+
+no-permission: "&cDu hast keine Berechtigung, diesen Befehl zu verwenden."
+only-players: "&cNur Spieler können diesen Befehl verwenden."
+reload-success: "&aKonfiguration erfolgreich neu geladen!"
+item-given: "&aDu hast das benutzerdefinierte Item erhalten: &f{item}"
+item-not-found: "&cItem in der Konfiguration nicht gefunden."
+usage-command: "&cVerwendung: /sability get <item> oder /sability reload"
+cooldown-active: "&cDu musst &f{time}s &cwarten, um dieses Item erneut zu verwenden."
+cannot-use-here: "&cDu kannst dieses Item in dieser Region nicht verwenden!"
+cage-spawned: "&aKäfig erfolgreich erstellt!"
+cage-expired: "&eDein Käfig ist verschwunden."

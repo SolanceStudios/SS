@@ -1,0 +1,13 @@
+# SolanceAbility Messages
+prefix: "&#00CBFFSolanceAbility: "
+
+no-permission: "&cJe hebt geen toestemming om dit commando te gebruiken."
+only-players: "&cAlleen spelers kunnen dit commando gebruiken."
+reload-success: "&aConfiguratie succesvol opnieuw geladen!"
+item-given: "&aJe hebt het aangepaste item ontvangen: &f{item}"
+item-not-found: "&cItem niet gevonden in de configuratie."
+usage-command: "&cGebruik: /sability get <item> of /sability reload"
+cooldown-active: "&cJe moet &f{time}s &cwachten om dit item opnieuw te gebruiken."
+cannot-use-here: "&cJe kunt dit item niet in deze regio gebruiken!"
+cage-spawned: "&aKooi succesvol gegenereerd!"
+cage-expired: "&eJe kooi is verdwenen."

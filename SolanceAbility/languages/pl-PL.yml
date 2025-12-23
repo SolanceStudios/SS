@@ -1,0 +1,13 @@
+# SolanceAbility Messages
+prefix: "&#00CBFFSolanceAbility: "
+
+no-permission: "&cNie masz uprawnień do użycia tej komendy."
+only-players: "&cTylko gracze mogą używać tej komendy."
+reload-success: "&aKonfiguracja została pomyślnie przeładowana!"
+item-given: "&aOtrzymałeś spersonalizowany przedmiot: &f{item}"
+item-not-found: "&cPrzedmiot nie został znaleziony w konfiguracji."
+usage-command: "&cUżycie: /sability get <item> lub /sability reload"
+cooldown-active: "&cMusisz poczekać &f{time}s &caby ponownie użyć tego przedmiotu."
+cannot-use-here: "&cNie możesz użyć tego przedmiotu w tym regionie!"
+cage-spawned: "&aKlatka została wygenerowana pomyślnie!"
+cage-expired: "&eTwoja klatka zniknęła."

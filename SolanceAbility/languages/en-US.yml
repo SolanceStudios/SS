@@ -1,0 +1,13 @@
+# SolanceAbility Messages
+prefix: "&#00CBFFSolanceAbility: "
+
+no-permission: "&cYou do not have permission to use this command."
+only-players: "&cOnly players can use this command."
+reload-success: "&aConfiguration reloaded successfully!"
+item-given: "&aYou have received the custom item: &f{item}"
+item-not-found: "&cItem not found in the configuration."
+usage-command: "&cUsage: /sability get <item> or /sability reload"
+cooldown-active: "&cYou must wait &f{time}s &cto use this item again."
+cannot-use-here: "&cYou cannot use this item in this region!"
+cage-spawned: "&aCage spawned successfully!"
+cage-expired: "&eYour cage has disappeared."

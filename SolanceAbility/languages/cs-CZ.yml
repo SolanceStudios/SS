@@ -1,0 +1,13 @@
+# SolanceAbility Messages
+prefix: "&#00CBFFSolanceAbility: "
+
+no-permission: "&cNemáš oprávnění použít tento příkaz."
+only-players: "&cTento příkaz mohou používat pouze hráči."
+reload-success: "&aKonfigurace byla úspěšně znovu načtena!"
+item-given: "&aObdržel jsi vlastní předmět: &f{item}"
+item-not-found: "&cPředmět nebyl nalezen v konfiguraci."
+usage-command: "&cPoužití: /sability get <item> nebo /sability reload"
+cooldown-active: "&cMusíš počkat &f{time}s &cnež budeš moci tento předmět znovu použít."
+cannot-use-here: "&cTento předmět nemůžeš použít v této oblasti!"
+cage-spawned: "&aKlec byla úspěšně vytvořena!"
+cage-expired: "&eTvoje klec zmizela."

@@ -1,0 +1,13 @@
+# SolanceAbility Messages
+prefix: "&#00CBFFSolanceAbility: "
+
+no-permission: "&cDu har inte behörighet att använda detta kommando."
+only-players: "&cEndast spelare kan använda detta kommando."
+reload-success: "&aKonfigurationen laddades om framgångsrikt!"
+item-given: "&aDu har fått det anpassade föremålet: &f{item}"
+item-not-found: "&cFöremål hittades inte i konfigurationen."
+usage-command: "&cAnvändning: /sability get <item> eller /sability reload"
+cooldown-active: "&cDu måste vänta &f{time}s &cför att använda detta föremål igen."
+cannot-use-here: "&cDu kan inte använda detta föremål i denna region!"
+cage-spawned: "&aBur skapad framgångsrikt!"
+cage-expired: "&eDin bur har försvunnit."

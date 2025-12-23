@@ -1,0 +1,13 @@
+# SolanceAbility Messages
+prefix: "&#00CBFFSolanceAbility: "
+
+no-permission: "&c你没有权限使用此命令。"
+only-players: "&c只有玩家才能使用此命令。"
+reload-success: "&a配置已成功重新加载！"
+item-given: "&a你已获得自定义物品：&f{item}"
+item-not-found: "&c在配置中未找到该物品。"
+usage-command: "&c用法：/sability get <item> 或 /sability reload"
+cooldown-active: "&c你必须等待 &f{time}s &c才能再次使用该物品。"
+cannot-use-here: "&c你不能在该区域使用此物品！"
+cage-spawned: "&a牢笼已成功生成！"
+cage-expired: "&e你的牢笼已消失。"

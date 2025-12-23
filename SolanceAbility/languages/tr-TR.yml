@@ -1,0 +1,13 @@
+# SolanceAbility Messages
+prefix: "&#00CBFFSolanceAbility: "
+
+no-permission: "&cBu komutu kullanma iznin yok."
+only-players: "&cBu komutu yalnızca oyuncular kullanabilir."
+reload-success: "&aYapılandırma başarıyla yeniden yüklendi!"
+item-given: "&aÖzel eşyayı aldın: &f{item}"
+item-not-found: "&cYapılandırmada eşya bulunamadı."
+usage-command: "&cKullanım: /sability get <item> veya /sability reload"
+cooldown-active: "&cBu eşyayı tekrar kullanmak için &f{time}s &cbeklemelisin."
+cannot-use-here: "&cBu eşyayı bu bölgede kullanamazsın!"
+cage-spawned: "&aKafes başarıyla oluşturuldu!"
+cage-expired: "&eKafesin kayboldu."
