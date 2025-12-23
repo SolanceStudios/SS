@@ -47,3 +47,6 @@ Each plugin includes specific licensing terms provided with its release.
 ## Vision
 
 Our vision is to establish Solance Studios as a trusted and professional name in the Minecraft plugin market, delivering secure, closed-source solutions for both free and premium users.
+
+
+![SS](https://github.com/user-attachments/assets/9be6140b-fe8a-4c63-aaea-568836ecab4c)
