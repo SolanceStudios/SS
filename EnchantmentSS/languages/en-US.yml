@@ -1,1 +1,62 @@
+general:
+  no-permission: "{prefix}&c✖ You do not have permission to do this."
+  player-only: "{prefix}&c✖ This command can only be used by players."
+  invalid-command: "{prefix}&e Invalid or wrong command."
+  reloaded: "{prefix}&a✔ Plugin configuration and messages reloaded."
+  reload-failed: "{prefix}&c✖ Failed to reload plugin configuration."
 
+usage:
+  main: "{prefix}&e Use /enchantmentss <enchant|reload>"
+  enchant: "{prefix}&e Use /enchantmentss enchant <enchantment> <level>"
+  reload: "{prefix}&e Use /enchantmentss reload"
+
+enchant:
+  success: "{prefix}&a✔ Item successfully enchanted!"
+  no-item-in-hand: "{prefix}&c✖ Failed to enchant. You must hold an item."
+  level-not-available: "{prefix}&e Enchantment level is not available."
+  enchantment-not-found: "{prefix}&c✖ Unknown enchantment name."
+  incompatible-item: "{prefix}&c✖ This enchantment cannot be applied to this item."
+
+toxicstrike:
+  name: "§l&#11A100T&#109900o&#109200x&#0F8A00i&#0F8200c &#0E7300S&#0D6C00t&#0D6400r&#0C5C00i&#0C5500k&#0B4D00e"
+  description: "&7On hit, has a chance to poison the enemy, slowly draining health."
+  level-1: "&aLevel I:&7 40% chance, drains 0.5 hearts for 5 seconds."
+  level-2: "&aLevel II:&7 25% chance, drains 1 heart for 6 seconds."
+  level-3: "&aLevel III:&7 10% chance, drains 2 hearts for 8 seconds."
+  trigger: "&7Trigger:&f when attacking an entity."
+  sound: "&7Sound:&f LEVEL_UP"
+
+bleed:
+  name: "§l&#A10000B&#8C0000l&#770000e&#620000e&#4D0000d"
+  description: "&7After a hit, the enemy starts bleeding, losing health over time."
+  level-1: "&aLevel I:&7 45% chance, removes 2 health every 5 seconds."
+  level-2: "&aLevel II:&7 30% chance, removes 2.5 health every 3 seconds."
+  level-3: "&aLevel III:&7 10% chance, removes 3 health every 4 seconds."
+  trigger: "&7Trigger:&f when attacking an entity."
+  visual: "&7Visual:&f HEART particles."
+  sound: "&7Sound:&f ANVIL_LAND"
+
+frosttouch:
+  name: "§l&#00A17EF&#009879r&#008F74o&#00866Fs&#007D6At &#006C61T&#00635Co&#005A57u&#005152c&#00484Dh"
+  description: "&7On hit, slows and temporarily freezes the enemy."
+  level-1: "&aLevel I:&7 12% chance, freeze for 5 seconds."
+  trigger: "&7Trigger:&f when attacking an entity."
+  sound: "&7Sound:&f BLOCK_BEACON_ACTIVATE"
+
+electrocute:
+  name: "§l&#00BAFFE&#00ADF2l&#00A1E5e&#0094D7c&#0088CAt&#007BBDr&#006EB0o&#0062A3c&#005595u&#004988t&#003C7Be"
+  description: "&7On hit, has a chance to deal area lightning damage around the target."
+  level-1: "&aLevel I:&7 20% chance, removes 3 health in a 2x2x2 area."
+  level-2: "&aLevel II:&7 5% chance, removes 5 health in a 3x3x3 area."
+  trigger: "&7Trigger:&f when attacking an entity."
+  visual: "&7Visual:&f CRIT particles."
+  sound: "&7Sound:&f EXPLODE"
+
+mindwarp:
+  name: "§l&#5C008EM&#65007Ei&#6E006Fn&#77005Fd &#8A003FW&#930030a&#9C0020r&#A50010p"
+  description: "&7Disorients the enemy, confusing their movements and attacks."
+  level-1: "&aLevel I:&7 5% chance, disorients for 5 seconds."
+  trigger: "&7Trigger:&f when attacking an entity."
+  subtitle: "&cYOU HAVE BEEN DISORIENTED!!"
+  visual: "&7Visual:&f EXPLOSION_NORMAL particles."
+  sound: "&7Sound:&f ENDERDRAGON_DEATH"
