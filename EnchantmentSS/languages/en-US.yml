@@ -17,6 +17,11 @@ enchant:
   enchantment-not-found: "{prefix}&c✖ Unknown enchantment name."
   incompatible-item: "{prefix}&c✖ This enchantment cannot be applied to this item."
 
+update:
+  up-to-date: "{prefix}&a✔ You are using the latest plugin version &f{current}&a."
+  outdated: "{prefix}&e⚠ A new plugin version is available! Current: &f{current}&e, Latest: &f{latest}&e."
+  error: "{prefix}&c✖ Could not check for plugin updates at this time."
+
 toxicstrike:
   name: "§l&#11A100T&#109900o&#109200x&#0F8A00i&#0F8200c &#0E7300S&#0D6C00t&#0D6400r&#0C5C00i&#0C5500k&#0B4D00e"
   description: "&7On hit, has a chance to poison the enemy, slowly draining health."
