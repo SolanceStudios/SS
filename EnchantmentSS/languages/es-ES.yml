@@ -1,0 +1,67 @@
+general:
+  no-permission: "{prefix}&c✖ No tienes permiso para hacer esto."
+  player-only: "{prefix}&c✖ Este comando solo puede ser usado por jugadores."
+  invalid-command: "{prefix}&e Comando inválido o incorrecto."
+  reloaded: "{prefix}&a✔ Configuración y mensajes del plugin recargados."
+  reload-failed: "{prefix}&c✖ No se pudo recargar la configuración del plugin."
+
+usage:
+  main: "{prefix}&e Usa /enchantmentss <enchant|reload>"
+  enchant: "{prefix}&e Usa /enchantmentss enchant <encantamiento> <nivel>"
+  reload: "{prefix}&e Usa /enchantmentss reload"
+
+enchant:
+  success: "{prefix}&a✔ ¡Objeto encantado con éxito!"
+  no-item-in-hand: "{prefix}&c✖ Error al encantar. Debes sostener un objeto."
+  level-not-available: "{prefix}&e El nivel del encantamiento no está disponible."
+  enchantment-not-found: "{prefix}&c✖ Nombre de encantamiento desconocido."
+  incompatible-item: "{prefix}&c✖ Este encantamiento no puede aplicarse a este objeto."
+
+update:
+  up-to-date: "{prefix}&a✔ Estás usando la última versión del plugin &f{current}&a."
+  outdated: "{prefix}&e⚠ ¡Hay una nueva versión del plugin disponible! Actual: &f{current}&e, Última: &f{latest}&e."
+  error: "{prefix}&c✖ No se pudo comprobar las actualizaciones del plugin en este momento."
+
+toxicstrike:
+  name: "§l&#11A100T&#109900o&#109200x&#0F8A00i&#0F8200c &#0E7300S&#0D6C00t&#0D6400r&#0C5C00i&#0C5500k&#0B4D00e"
+  description: "&7Al golpear, tiene una probabilidad de envenenar al enemigo, drenando vida lentamente."
+  level-1: "&aNivel I:&7 40% de probabilidad, drena 0.5 corazones durante 5 segundos."
+  level-2: "&aNivel II:&7 25% de probabilidad, drena 1 corazón durante 6 segundos."
+  level-3: "&aNivel III:&7 10% de probabilidad, drena 2 corazones durante 8 segundos."
+  trigger: "&7Activación:&f al atacar una entidad."
+  sound: "&7Sonido:&f LEVEL_UP"
+
+bleed:
+  name: "§l&#A10000B&#8C0000l&#770000e&#620000e&#4D0000d"
+  description: "&7Después de un golpe, el enemigo comienza a sangrar, perdiendo vida con el tiempo."
+  level-1: "&aNivel I:&7 45% de probabilidad, elimina 2 de vida cada 5 segundos."
+  level-2: "&aNivel II:&7 30% de probabilidad, elimina 2.5 de vida cada 3 segundos."
+  level-3: "&aNivel III:&7 10% de probabilidad, elimina 3 de vida cada 4 segundos."
+  trigger: "&7Activación:&f al atacar una entidad."
+  visual: "&7Visual:&f partículas HEART."
+  sound: "&7Sonido:&f ANVIL_LAND"
+
+frosttouch:
+  name: "§l&#00A17EF&#009879r&#008F74o&#00866Fs&#007D6At &#006C61T&#00635Co&#005A57u&#005152c&#00484Dh"
+  description: "&7Al golpear, ralentiza y congela temporalmente al enemigo."
+  level-1: "&aNivel I:&7 12% de probabilidad, congela durante 5 segundos."
+  trigger: "&7Activación:&f al atacar una entidad."
+  sound: "&7Sonido:&f BLOCK_BEACON_ACTIVATE"
+
+electrocute:
+  name: "§l&#00BAFFE&#00ADF2l&#00A1E5e&#0094D7c&#0088CAt&#007BBDr&#006EB0o&#0062A3c&#005595u&#004988t&#003C7Be"
+  description: "&7Al golpear, tiene una probabilidad de causar daño eléctrico en área alrededor del objetivo."
+  level-1: "&aNivel I:&7 20% de probabilidad, elimina 3 de vida en un área 2x2x2."
+  level-2: "&aNivel II:&7 5% de probabilidad, elimina 5 de vida en un área 3x3x3."
+  trigger: "&7Activación:&f al atacar una entidad."
+  visual: "&7Visual:&f partículas CRIT."
+  sound: "&7Sonido:&f EXPLODE"
+
+mindwarp:
+  name: "§l&#5C008EM&#65007Ei&#6E006Fn&#77005Fd &#8A003FW&#930030a&#9C0020r&#A50010p"
+  description: "&7Desorienta al enemigo, confundiendo sus movimientos y ataques."
+  level-1: "&aNivel I:&7 5% de probabilidad, desorienta durante 5 segundos."
+  trigger: "&7Activación:&f al atacar una entidad."
+  subtitle: "&c¡¡HAS SIDO DESORIENTADO!!"
+  visual: "&7Visual:&f partículas EXPLOSION_NORMAL."
+  sound: "&7Sonido:&f ENDERDRAGON_DEATH"
