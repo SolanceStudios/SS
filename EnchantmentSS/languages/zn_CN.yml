@@ -1,0 +1,84 @@
+general:
+  no-permission: "{prefix}&c✖ 你没有执行此操作的权限。"
+  player-only: "{prefix}&c✖ 此命令只能由玩家使用。"
+  invalid-command: "{prefix}&e 无效或错误的命令。"
+  reloaded: "{prefix}&a✔ 插件配置和消息已重新加载。"
+  reload-failed: "{prefix}&c✖ 重新加载插件配置失败。"
+
+usage:
+  main: "{prefix}&e 使用 /enchantmentss <enchant|reload>"
+  enchant: "{prefix}&e 使用 /enchantmentss enchant <附魔> <等级>"
+  reload: "{prefix}&e 使用 /enchantmentss reload"
+
+enchant:
+  success: "{prefix}&a✔ 物品附魔成功！"
+  no-item-in-hand: "{prefix}&c✖ 附魔失败。你必须手持一个物品。"
+  level-not-available: "{prefix}&e 此附魔等级不可用。"
+  enchantment-not-found: "{prefix}&c✖ 未知的附魔名称。"
+  incompatible-item: "{prefix}&c✖ 此附魔不能应用到该物品上。"
+
+update:
+  up-to-date: "{prefix}&a✔ 你正在使用插件的最新版本 &f{current}&a。"
+  outdated: "{prefix}&e⚠ 检测到新版本！当前: &f{current}&e, 最新: &f{latest}&e。"
+  error: "{prefix}&c✖ 检查插件更新时出错。"
+
+toxicstrike:
+  name: "§l&#11A100T&#109900o&#109200x&#0F8A00i&#0F8200c &#0E7300S&#0D6C00t&#0D6400r&#0C5C00i&#0C5500k&#0B4D00e"
+  description: "&7攻击时有几率使敌人中毒，并缓慢削减其生命值。"
+  level-1: "&a等级 I:&7 40% 几率，在 5 秒内每次造成 0.5 颗心的伤害。"
+  level-2: "&a等级 II:&7 25% 几率，在 6 秒内每次造成 1 颗心的伤害。"
+  level-3: "&a等级 III:&7 10% 几率，在 8 秒内每次造成 2 颗心的伤害。"
+  trigger: "&7触发条件:&f 攻击实体时。"
+  sound: "&7音效:&f LEVEL_UP"
+
+bleed:
+  name: "§l&#A10000B&#8C0000l&#770000e&#620000e&#4D0000d"
+  description: "&7攻击后，敌人进入流血状态，并会周期性失去生命值。"
+  level-1: "&a等级 I:&7 45% 几率，每 5 秒减少 2 点生命值。"
+  level-2: "&a等级 II:&7 30% 几率，每 3 秒减少 2.5 点生命值。"
+  level-3: "&a等级 III:&7 10% 几率，每 4 秒减少 3 点生命值。"
+  trigger: "&7触发条件:&f 攻击实体时。"
+  visual: "&7视觉效果:&f HEART 粒子。"
+  sound: "&7音效:&f ANVIL_LAND"
+
+frosttouch:
+  name: "§l&#00A17EF&#009879r&#008F74o&#00866Fs&#007D6At &#006C61T&#00635Co&#005A57u&#005152c&#00484Dh"
+  description: "&7攻击时会减缓敌人的移动速度，并短暂冻结。"
+  level-1: "&a等级 I:&7 12% 几率，冻结 5 秒。"
+  trigger: "&7触发条件:&f 攻击实体时。"
+  sound: "&7音效:&f BLOCK_BEACON_ACTIVATE"
+
+electrocute:
+  name: "§l&#00BAFFE&#00ADF2l&#00A1E5e&#0094D7c&#0088CAt&#007BBDr&#006EB0o&#0062A3c&#005595u&#004988t&#003C7Be"
+  description: "&7攻击时有几率在目标周围造成范围电击伤害。"
+  level-1: "&a等级 I:&7 20% 几率，在 2x2x2 范围内造成 3 点伤害。"
+  level-2: "&a等级 II:&7 5% 几率，在 3x3x3 范围内造成 5 点伤害。"
+  trigger: "&7触发条件:&f 攻击实体时。"
+  visual: "&7视觉效果:&f CRIT 粒子。"
+  sound: "&7音效:&f EXPLODE"
+
+mindwarp:
+  name: "§l&#5C008EM&#65007Ei&#6E006Fn&#77005Fd &#8A003FW&#930030a&#9C0020r&#A50010p"
+  description: "&7扭曲敌人的心智，使其移动和攻击变得混乱。"
+  level-1: "&a等级 I:&7 5% 几率，使其混乱 5 秒。"
+  trigger: "&7触发条件:&f 攻击实体时。"
+  subtitle: "&c你被扰乱了！"
+  visual: "&7视觉效果:&f EXPLOSION_NORMAL 粒子。"
+  sound: "&7音效:&f ENDERDRAGON_DEATH"
+
+combat:
+  toxicstrike:
+    attacker: "{prefix}&aToxic Strike &7[{level}] 已在 &f{target}&7 身上触发！"
+    victim: "{prefix}&c你被 &f{attacker}&c 的 Toxic Strike &7[{level}]&c 毒害了！"
+  bleed:
+    attacker: "{prefix}&aBleed &7[{level}] 已在 &f{target}&7 身上触发！"
+    victim: "{prefix}&c你因 &f{attacker}&c 的 Bleed &7[{level}]&c 正在流血！"
+  frosttouch:
+    attacker: "{prefix}&bFrost Touch 已触发，使 &f{target}&b 变慢！"
+    victim: "{prefix}&b你被 &f{attacker}&b 冻结了！"
+  electrocute:
+    attacker: "{prefix}&eElectrocute 已触发，对目标周围造成范围伤害！"
+    victim: "{prefix}&e你被 &f{attacker}&e 的电击攻击击中！"
+  mindwarp:
+    victim: "{prefix}&5你的精神被扭曲，感官变得混乱……"
+

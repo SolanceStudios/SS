@@ -1,0 +1,84 @@
+general:
+  no-permission: "{prefix}&c✖ Non hai il permesso per farlo."
+  player-only: "{prefix}&c✖ Questo comando può essere usato solo dai giocatori."
+  invalid-command: "{prefix}&e Comando non valido o errato."
+  reloaded: "{prefix}&a✔ Configurazione e messaggi ricaricati."
+  reload-failed: "{prefix}&c✖ Impossibile ricaricare la configurazione del plugin."
+
+usage:
+  main: "{prefix}&e Usa /enchantmentss <enchant|reload>"
+  enchant: "{prefix}&e Usa /enchantmentss enchant <incantesimo> <livello>"
+  reload: "{prefix}&e Usa /enchantmentss reload"
+
+enchant:
+  success: "{prefix}&a✔ Oggetto incantato con successo!"
+  no-item-in-hand: "{prefix}&c✖ Impossibile incantare. Devi avere un oggetto in mano."
+  level-not-available: "{prefix}&e Livello di incantesimo non disponibile."
+  enchantment-not-found: "{prefix}&c✖ Nome incantesimo sconosciuto."
+  incompatible-item: "{prefix}&c✖ Questo incantesimo non può essere applicato a questo oggetto."
+
+update:
+  up-to-date: "{prefix}&a✔ Stai usando l'ultima versione del plugin &f{current}&a."
+  outdated: "{prefix}&e⚠ È disponibile una nuova versione! Attuale: &f{current}&e, Ultima: &f{latest}&e."
+  error: "{prefix}&c✖ Impossibile controllare gli aggiornamenti del plugin."
+
+toxicstrike:
+  name: "§l&#11A100T&#109900o&#109200x&#0F8A00i&#0F8200c &#0E7300S&#0D6C00t&#0D6400r&#0C5C00i&#0C5500k&#0B4D00e"
+  description: "&7All'impatto, ha una possibilità di avvelenare il nemico, drenando lentamente la vita."
+  level-1: "&aLivello I:&7 40% di probabilità, drena 0,5 cuori per 5 secondi."
+  level-2: "&aLivello II:&7 25% di probabilità, drena 1 cuore per 6 secondi."
+  level-3: "&aLivello III:&7 10% di probabilità, drena 2 cuori per 8 secondi."
+  trigger: "&7Attivatore:&f quando si attacca una entità."
+  sound: "&7Suono:&f LEVEL_UP"
+
+bleed:
+  name: "§l&#A10000B&#8C0000l&#770000e&#620000e&#4D0000d"
+  description: "&7Dopo un colpo, il nemico inizia a sanguinare, perdendo vita nel tempo."
+  level-1: "&aLivello I:&7 45% di probabilità, rimuove 2 di vita ogni 5 secondi."
+  level-2: "&aLivello II:&7 30% di probabilità, rimuove 2,5 di vita ogni 3 secondi."
+  level-3: "&aLivello III:&7 10% di probabilità, rimuove 3 di vita ogni 4 secondi."
+  trigger: "&7Attivatore:&f quando si attacca una entità."
+  visual: "&7Visivo:&f particelle HEART."
+  sound: "&7Suono:&f ANVIL_LAND"
+
+frosttouch:
+  name: "§l&#00A17EF&#009879r&#008F74o&#00866Fs&#007D6At &#006C61T&#00635Co&#005A57u&#005152c&#00484Dh"
+  description: "&7All'impatto, rallenta e congela temporaneamente il nemico."
+  level-1: "&aLivello I:&7 12% di probabilità, congela per 5 secondi."
+  trigger: "&7Attivatore:&f quando si attacca una entità."
+  sound: "&7Suono:&f BLOCK_BEACON_ACTIVATE"
+
+electrocute:
+  name: "§l&#00BAFFE&#00ADF2l&#00A1E5e&#0094D7c&#0088CAt&#007BBDr&#006EB0o&#0062A3c&#005595u&#004988t&#003C7Be"
+  description: "&7All'impatto, ha una possibilità di infliggere danni elettrici ad area intorno al bersaglio."
+  level-1: "&aLivello I:&7 20% di probabilità, rimuove 3 di vita in un'area 2x2x2."
+  level-2: "&aLivello II:&7 5% di probabilità, rimuove 5 di vita in un'area 3x3x3."
+  trigger: "&7Attivatore:&f quando si attacca una entità."
+  visual: "&7Visivo:&f particelle CRIT."
+  sound: "&7Suono:&f EXPLODE"
+
+mindwarp:
+  name: "§l&#5C008EM&#65007Ei&#6E006Fn&#77005Fd &#8A003FW&#930030a&#9C0020r&#A50010p"
+  description: "&7Disorienta la mente del nemico, confondendo i suoi movimenti e attacchi."
+  level-1: "&aLivello I:&7 5% di probabilità, disorienta per 5 secondi."
+  trigger: "&7Attivatore:&f quando si attacca una entità."
+  subtitle: "&cSEI STATO DISORIENTATO!"
+  visual: "&7Visivo:&f particelle EXPLOSION_NORMAL."
+  sound: "&7Suono:&f ENDERDRAGON_DEATH"
+
+combat:
+  toxicstrike:
+    attacker: "{prefix}&aToxic Strike &7[{level}] attivato su &f{target}&7!"
+    victim: "{prefix}&cSei stato avvelenato da Toxic Strike &7[{level}]&c di &f{attacker}&c!"
+  bleed:
+    attacker: "{prefix}&aBleed &7[{level}] attivato su &f{target}&7!"
+    victim: "{prefix}&cStai sanguinando per Bleed &7[{level}]&c di &f{attacker}&c!"
+  frosttouch:
+    attacker: "{prefix}&bFrost Touch attivato, rallentando &f{target}&b!"
+    victim: "{prefix}&bSei stato congelato da &f{attacker}&b!"
+  electrocute:
+    attacker: "{prefix}&eElectrocute attivato, infliggendo danni ad area intorno al tuo bersaglio!"
+    victim: "{prefix}&eSei stato colpito da una scossa elettrica di &f{attacker}&e!"
+  mindwarp:
+    victim: "{prefix}&5La tua mente è distorta e i tuoi sensi sono confusi..."
+
