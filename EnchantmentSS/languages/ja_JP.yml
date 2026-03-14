@@ -1,0 +1,23 @@
+general:
+  no-permission: "{prefix}&c✖ この操作を行う権限がありません。"
+  player-only: "{prefix}&c✖ このコマンドはプレイヤーのみ使用できます。"
+  invalid-command: "{prefix}&e 無効または間違ったコマンドです。"
+  reloaded: "{prefix}&a✔ プラグインの設定とメッセージを再読み込みしました。"
+  reload-failed: "{prefix}&c✖ プラグイン設定の再読み込みに失敗しました。"
+
+usage:
+  main: "{prefix}&e /enchantmentss <enchant|reload> を使用してください"
+  enchant: "{prefix}&e /enchantmentss enchant <エンチャント> <レベル> を使用してください"
+  reload: "{prefix}&e /enchantmentss reload を使用してください"
+
+enchant:
+  success: "{prefix}&a✔ アイテムのエンチャントに成功しました！"
+  no-item-in-hand: "{prefix}&c✖ エンチャントに失敗しました。アイテムを手に持つ必要があります。"
+  level-not-available: "{prefix}&e このエンチャントレベルは利用できません。"
+  enchantment-not-found: "{prefix}&c✖ 不明なエンチャント名です。"
+  incompatible-item: "{prefix}&c✖ このエンチャントはこのアイテムに適用できません。"
+
+update:
+  up-to-date: "{prefix}&a✔ 最新バージョン &f{current}&a を使用しています。"
+  outdated: "{prefix}&e⚠ 新しいプラグインバージョンがあります！現在: &f{current}&e 最新: &f{latest}&e。"
+  error: "{prefix}&c✖ 現在プラグインの更新を確認できません。"
