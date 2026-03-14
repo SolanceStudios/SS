@@ -1,1 +1,1 @@
-1.3 version plugin
+1.2 version plugin
