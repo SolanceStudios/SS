@@ -1,0 +1,23 @@
+general:
+  no-permission: "{prefix}&c✖ Non hai il permesso per farlo."
+  player-only: "{prefix}&c✖ Questo comando può essere usato solo dai giocatori."
+  invalid-command: "{prefix}&e Comando non valido o errato."
+  reloaded: "{prefix}&a✔ Configurazione e messaggi del plugin ricaricati."
+  reload-failed: "{prefix}&c✖ Impossibile ricaricare la configurazione del plugin."
+
+usage:
+  main: "{prefix}&e Usa /enchantmentss <enchant|reload>"
+  enchant: "{prefix}&e Usa /enchantmentss enchant <incantesimo> <livello>"
+  reload: "{prefix}&e Usa /enchantmentss reload"
+
+enchant:
+  success: "{prefix}&a✔ Oggetto incantato con successo!"
+  no-item-in-hand: "{prefix}&c✖ Incantamento fallito. Devi tenere un oggetto."
+  level-not-available: "{prefix}&e Il livello dell'incantesimo non è disponibile."
+  enchantment-not-found: "{prefix}&c✖ Nome incantesimo sconosciuto."
+  incompatible-item: "{prefix}&c✖ Questo incantesimo non può essere applicato a questo oggetto."
+
+update:
+  up-to-date: "{prefix}&a✔ Stai usando l'ultima versione del plugin &f{current}&a."
+  outdated: "{prefix}&e⚠ È disponibile una nuova versione del plugin! Attuale: &f{current}&e, Ultima: &f{latest}&e."
+  error: "{prefix}&c✖ Impossibile controllare gli aggiornamenti del plugin al momento."
